@@ -1,0 +1,157 @@
+body {
+  background-color: #FFFBF3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+a {
+  color: #D75281;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#4D96FF;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #EB89B5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #EB89B5;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;;
+  color: #9EB23B;
+}
+
+hr {
+  width: 4rem;
+  border-width: 0.5rem;
+  border-style: dotted none none none;
+  border-color: #F2DDC1;
+  margin: 90px auto;
+}
+
+/*-----------------------Classes style----------------*/
+
+.top-container {
+  background-color: #FFD7E9;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.bottom-container {
+  background-color: #FF8FB1;
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+.bottom-container a {
+  padding: 0 40px;
+}
+
+.bottom-container p {
+  line-height: 4;
+  font-size: small;
+  color: white;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  background: #fcabcb;
+  background-image: -webkit-linear-gradient(top, #fcabcb, #ed5796);
+  background-image: -moz-linear-gradient(top, #fcabcb, #ed5796);
+  background-image: -ms-linear-gradient(top, #fcabcb, #ed5796);
+  background-image: -o-linear-gradient(top, #fcabcb, #ed5796);
+  background-image: linear-gradient(to bottom, #fcabcb, #ed5796);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d1e659;
+  background-image: -webkit-linear-gradient(top, #d1e659, #aec43f);
+  background-image: -moz-linear-gradient(top, #d1e659, #aec43f);
+  background-image: -ms-linear-gradient(top, #d1e659, #aec43f);
+  background-image: -o-linear-gradient(top, #d1e659, #aec43f);
+  background-image: linear-gradient(to bottom, #d1e659, #aec43f);
+  text-decoration: none;
+  color: white;
+}
+
+
+.contact-me h3 {
+    margin: 34px auto;
+}
+
+.contact-me p {
+    margin: 34px auto 60px auto;
+}
+
+.intro {
+  width: 30%;
+}
+
+.lyubov-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 10px auto 0 auto;
+}
+
+.middle-container {
+  margin: 50px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skills-pro {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-hobby {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
